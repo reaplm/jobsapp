@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VfW+9D6rDQGm1ySZP+dmPn31b8AUgyEzA0JAYnoz1rCaho7Z8A2XGRL+HPvJIwRTawQK0RtQ5kyArWbtbethqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pmolefe\\Source\\repos\\JobsApp\\JobsApp\\JobsApp.iOS\\JobsApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
