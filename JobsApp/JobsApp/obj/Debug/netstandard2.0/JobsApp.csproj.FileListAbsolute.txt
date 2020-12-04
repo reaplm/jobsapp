@@ -17,3 +17,5 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\X
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.dll
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\ref\JobsApp.dll
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.pdb
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\JobsPage.xaml.g.cs
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs

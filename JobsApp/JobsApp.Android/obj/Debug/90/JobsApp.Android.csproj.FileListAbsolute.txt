@@ -493,3 +493,10 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\stamp
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-hdpi\suitcase_icon.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-mdpi\suitcase_icon.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-xhdpi\suitcase_icon.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-xxhdpi\suitcase_icon.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\suitcase_icon.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\suitcase_icon.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\home_icon.png
