@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" >
+    <Color x:Key="PrimaryColor">#aa00ff</Color>
+    <Color x:Key="PrimaryColorDark">#7200ca</Color>
+    <Color x:Key="AccentColor">#e254ff</Color>
+
+    <!-- Shell  -->
+    <Color x:Key="BackgroundColor">PrimaryColor</Color>
+    <Color x:Key="ForegroundColor">White</Color>
+    <Color x:Key="TitleColor">White</Color>
+    <Color x:Key="DisabledColor">#B4FFFFFF</Color>
+    <Color x:Key="UnselectedColor">#95FFFFFF</Color>
+
+    <!--- TabLayout -->
+    <Color x:Key="TabBarBackgroundColor" >PrimaryColor</Color>
+    <Color x:Key="TabBarForegroundColor" >#fafafa</Color>
+    <Color x:Key="TabBarUnselectedColor" >AccentColor</Color>
+    <Color x:Key="TabBarTitleColor">White</Color>
+
+    <!-- Flyout-->
+    <Color x:Key="FlyoutBackgroundColor" >PrimaryColor</Color>
+    <Color x:Key="FlyoutItemSelectedBgColor" >PrimaryColor</Color>
+    <Color x:Key="FlyoutItemTextColor" >PrimaryColor</Color>
+    <Color x:Key="FlyoutItemSelectedTextColor" >White</Color>
+
+
+</ResourceDictionary>
