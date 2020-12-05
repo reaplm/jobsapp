@@ -17,26 +17,63 @@
     <RefreshView x:DataType="local:ItemsViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
         <CollectionView x:Name="ItemsListView"
                 ItemsSource="{Binding Items}"
-                SelectionMode="None">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="10" x:DataType="model:Item">
-                        <Label Text="{Binding Text}" 
-                            LineBreakMode="NoWrap" 
-                            Style="{DynamicResource ListItemTextStyle}" 
-                            FontSize="16" />
-                        <Label Text="{Binding Description}" 
-                            LineBreakMode="NoWrap"
-                            Style="{DynamicResource ListItemDetailTextStyle}"
-                            FontSize="13" />
-                        <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer 
-                                NumberOfTapsRequired="1"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ItemsViewModel}}, Path=ItemTapped}"		
-                                CommandParameter="{Binding .}">
-                            </TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>
+                SelectionMode="None"
+                        >
+            <CollectionView.ItemTemplate >
+                <DataTemplate >
+                    
+                        <StackLayout x:DataType="model:Item">
+                        <Frame HasShadow="True" Margin="4">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding PostedDateString}" 
+                                Grid.Row="0" 
+                                Grid.Column="2" 
+                                HorizontalOptions="End" 
+                                       Margin="5"/>
+                                <Button Grid.Row="1" Grid.Column="0" 
+                                FontAttributes="Bold" 
+                                FontSize="Small" 
+                                Margin="10" 
+                                Padding="10"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                BorderRadius="25"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                TextColor="White"/>
+                                <StackLayout Grid.Row="1" Grid.Column="1">
+                                    <Label Text="{Binding Title}" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Company}"  />
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Source="outline_location.png" 
+                                           />
+                                        <Label Text="{Binding Location}" />
+                                    </StackLayout>
+
+                                    <Label Text="{Binding ClosingDateString}" Margin="10"/>
+                                </StackLayout>
+                                <Image x:Name="favButton" 
+                                    Source="heart_outline" 
+                                    Grid.Row="1" 
+                                    Grid.Column="2" 
+                                    HorizontalOptions="End" 
+                                    HeightRequest="30"
+                                       Margin="5">
+
+                                </Image>
+                            </Grid>
+                        </Frame>
                     </StackLayout>
+                    
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>

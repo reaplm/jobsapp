@@ -500,3 +500,6 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\m
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\suitcase_icon.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\suitcase_icon.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\home_icon.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\heart_filled.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\heart_outline.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\outline_location.png

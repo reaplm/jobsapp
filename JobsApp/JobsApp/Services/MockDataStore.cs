@@ -14,12 +14,66 @@ namespace JobsApp.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item 
+                { 
+                    Id = Guid.NewGuid().ToString(), 
+                    Title = "First item",
+                    Company = "First company",
+                    Location = "Mochudi",
+                    Description="This is an item description.",
+                    Closing = new DateTime(2020,6,28),
+                    Posted = new DateTime(2020,6,23)
+                },
+                new Item 
+                { 
+                    Id = Guid.NewGuid().ToString(), 
+                    Title = "Second item",
+                    Company = "Second company",
+                    Description="This is an item description.",
+                    Location = "Tlokweng",
+                    Closing = new DateTime(2020,1,10),
+                    Posted = new DateTime(2020,1,23),
+                },
+                new Item 
+                { 
+                    Id = Guid.NewGuid().ToString(), 
+                    Title = "Third item",
+                    Company = "Third company",
+                    Description="This is an item description.",
+                    Location = "Kanye",
+                    Closing = new DateTime(2020,1,2),
+                    Posted = new DateTime(2020,1,10),
+                },
+                new Item 
+                { 
+                    Id = Guid.NewGuid().ToString(), 
+                    Title = "Fourth item",
+                    Company = "Fourth company",
+                    Description="This is an item description.",
+                    Location = "Francistown",
+                    Closing = new DateTime(2020,3,12),
+                    Posted = new DateTime(2020,3,15),
+                },
+                new Item 
+                { 
+                    Id = Guid.NewGuid().ToString(), 
+                    Title = "Fifth item",
+                    Company = "Fifth company",
+                    Description="This is an item description.",
+                    Location = "Maun",
+                    Closing = new DateTime(2020,4,5),
+                    Posted = new DateTime(2020,4,13)
+                },
+                new Item 
+                { 
+                    Id = Guid.NewGuid().ToString(), 
+                    Title = "Sixth item",
+                    Company = "Sixth company",
+                    Description="This is an item description.",
+                    Location = "Gaborone",
+                    Closing = new DateTime(2020,5,8),
+                    Posted = new DateTime(2020,5,12),
+                }
             };
         }
 
