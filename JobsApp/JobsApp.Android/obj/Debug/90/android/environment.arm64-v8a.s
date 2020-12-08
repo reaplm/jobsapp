@@ -3,8 +3,8 @@
 	.section	.rodata.env.str.1,"aMS",@progbits,1
 	.type	.L.env.str.1, @object
 .L.env.str.1:
-	.asciz	"com.companyname.jobsapp"
-	.size	.L.env.str.1, 24
+	.asciz	"JobsAppAndroid.JobsAppAndroid"
+	.size	.L.env.str.1, 30
 	.section	.data.application_config,"aw",@progbits
 	.type	application_config, @object
 	.p2align	3
@@ -53,8 +53,8 @@ mono_aot_mode_name:
 	.section	.rodata.env.str.4,"aMS",@progbits,1
 	.type	.L.env.str.4, @object
 .L.env.str.4:
-	.asciz	"major=marksweep-conc"
-	.size	.L.env.str.4, 21
+	.asciz	"major=marksweep"
+	.size	.L.env.str.4, 16
 	.section	.rodata.env.str.5,"aMS",@progbits,1
 	.type	.L.env.str.5, @object
 .L.env.str.5:
@@ -73,7 +73,7 @@ mono_aot_mode_name:
 	.section	.rodata.env.str.8,"aMS",@progbits,1
 	.type	.L.env.str.8, @object
 .L.env.str.8:
-	.asciz	"36706d37-07d2-4a79-8155-1dc9f93c1ff9"
+	.asciz	"7b83667f-5d27-40a5-9e61-447b57de0e43"
 	.size	.L.env.str.8, 37
 	.section	.rodata.env.str.9,"aMS",@progbits,1
 	.type	.L.env.str.9, @object

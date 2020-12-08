@@ -43,7 +43,7 @@ namespace JobsApp.ViewModels
         {
             try
             {
-                var item = await DataStore.GetItemAsync(itemId);
+                var item = await DataStore.FindAsync(itemId);
                 Id = item.Id;
                 Text = item.Title;
                 Description = item.Description;

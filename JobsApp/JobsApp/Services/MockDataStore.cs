@@ -77,7 +77,7 @@ namespace JobsApp.Services
             };
         }
 
-        public async Task<bool> AddItemAsync(Item item)
+        /*public async Task<bool> AddItemAsync(Item item)
         {
             items.Add(item);
 
@@ -99,7 +99,7 @@ namespace JobsApp.Services
             items.Remove(oldItem);
 
             return await Task.FromResult(true);
-        }
+        }*/
 
         public async Task<Item> GetItemAsync(string id)
         {
