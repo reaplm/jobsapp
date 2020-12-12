@@ -47,5 +47,12 @@ namespace JobsApp.Models
                 return "Closes " + Closing.ToShortDateString();
             }
         }
+        public string Abrev 
+        { 
+            get
+            {
+                return Title.Substring(0, 1);
+            } 
+        }
     }
 }

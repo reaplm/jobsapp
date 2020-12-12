@@ -5,6 +5,7 @@
              Title="{Binding Title}"
              xmlns:local="clr-namespace:JobsApp.ViewModels"  
              xmlns:model="clr-namespace:JobsApp.Models"  
+             xmlns:extensions="clr-namespace:JobsApp.Extensions"
              x:Name="BrowseItemsPage">
 
     <ContentPage.ToolbarItems>
@@ -49,7 +50,9 @@
                                 BorderRadius="25"
                                 VerticalOptions="Center"
                                 HorizontalOptions="Center"
-                                TextColor="White"/>
+                                Text="{Binding Abrev}"
+                                TextColor="White"
+                                BackgroundColor="{extensions:RandomColor}"/>
                                 <StackLayout Grid.Row="1" Grid.Column="1">
                                     <Label Text="{Binding Title}" FontAttributes="Bold"/>
                                     <Label Text="{Binding Company}"  />
