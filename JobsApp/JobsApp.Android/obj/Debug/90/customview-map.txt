@@ -22,6 +22,7 @@ com.google.android.material.appbar.AppBarLayout;C:\Users\pmolefe\Source\repos\Jo
 com.google.android.material.bottomnavigation.BottomNavigationView;C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\lp\44\jl\res\layout\bottomtablayout.xml
 com.google.android.material.tabs.TabLayout;C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\lp\44\jl\res\layout\rootlayout.xml
 com.google.android.material.tabs.TabLayout;obj\Debug\90\res\layout\tabbar.xml
+crc64720bb2db43a66fe9.FormsViewPager;C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\lp\44\jl\res\layout\rootlayout.xml
 declare-styleable;C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\lp\44\jl\res\values\attrs.xml
 external-cache-path;C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml

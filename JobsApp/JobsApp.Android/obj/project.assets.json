@@ -176,7 +176,7 @@
           "lib/netstandard2.0/Grpc.Core.dll": {}
         },
         "build": {
-          "build/MonoAndroid10/_._": {}
+          "build/MonoAndroid10/Grpc.Core.targets": {}
         },
         "runtimeTargets": {
           "runtimes/linux/native/libgrpc_csharp_ext.x64.so": {
@@ -4461,6 +4461,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "Google.Cloud.Firestore >= 2.3.0",
       "JobsApp >= 1.0.0",
       "Xamarin.AndroidX.Browser >= 1.2.0.2",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.5",
@@ -4514,6 +4515,10 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "Google.Cloud.Firestore": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
           "Xamarin.AndroidX.Browser": {
             "target": "Package",
             "version": "[1.2.0.2, )"

@@ -44,7 +44,7 @@ namespace JobsApp.Models
         {
             get
             {
-                return Closing.ToShortDateString();
+                return "Closes " + Closing.ToShortDateString();
             }
         }
     }
