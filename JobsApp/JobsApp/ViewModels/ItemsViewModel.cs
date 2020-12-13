@@ -13,9 +13,11 @@ namespace JobsApp.ViewModels
         private Item _selectedItem;
 
         public ObservableCollection<Item> Items { get; }
+        
         public Command LoadItemsCommand { get; }
         public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
+        public Command<Item> LikeTapped { get; }
 
         public ItemsViewModel()
         {
@@ -24,8 +26,14 @@ namespace JobsApp.ViewModels
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
             ItemTapped = new Command<Item>(OnItemSelected);
-
+            LikeTapped = new Command<Item>(OnLikeTapped);
             //AddItemCommand = new Command(OnAddItem);
+        }
+
+        private void OnLikeTapped(Item item)
+        {
+            item.Liked = !item.Liked;
+
         }
 
         async Task ExecuteLoadItemsCommand()

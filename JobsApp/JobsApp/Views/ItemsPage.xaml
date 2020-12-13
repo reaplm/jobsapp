@@ -65,13 +65,18 @@
                                     <Label Text="{Binding ClosingDateString}" Margin="10"/>
                                 </StackLayout>
                                 <Image x:Name="favButton" 
-                                    Source="heart_outline" 
+                                    Source="{Binding LikeSource}" 
                                     Grid.Row="1" 
                                     Grid.Column="2" 
                                     HorizontalOptions="End" 
                                     HeightRequest="30"
                                        Margin="5">
-
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                            Command="{Binding  Source={x:Reference ItemsListView}, 
+                                            Path=BindingContext.LikeTapped}" 
+                                            CommandParameter="{Binding .}"/>
+                                    </Image.GestureRecognizers>
                                 </Image>
                             </Grid>
                         </Frame>
