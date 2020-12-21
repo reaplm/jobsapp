@@ -11,6 +11,7 @@ namespace JobsApp.ViewModels
     public class BaseViewModel : INotifyPropertyChanged
     {
         public IFirebase DataStore => DependencyService.Get<IFirebase>();
+        public IAppManager AppManager => DependencyService.Get<IAppManager>();
 
         bool isBusy = false;
         public bool IsBusy

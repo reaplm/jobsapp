@@ -10,5 +10,6 @@ namespace JobsApp.Services
     {
         Task<Item> FindAsync(string id);
         Task<IEnumerable<Item>> FindAllAsync(bool forceRefresh = false);
+        Task<string> SignInWithEmailAndPassword(string email, string password);
     }
 }

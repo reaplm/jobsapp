@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FYwR/aZVVU55JHvTDj/P3AVkM/u8RIom6OXLLnLWWkWqySxcBtpgswF0r1xL/sLiuWOWMhOICtYS5GIRKkC3pQ==",
+  "dgSpecHash": "RmreH7C860pPfd1nO9d257JXZYXPYy+OUJTUEc4ek3zo4yk5aXmoPf3VOdslrw+gf8n+3DuJtTVcJulEYaHO7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\pmolefe\\Source\\repos\\JobsApp\\JobsApp\\JobsApp.Android\\JobsApp.Android.csproj",
   "expectedPackageFiles": [
@@ -107,10 +107,16 @@
     "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.7\\xamarin.androidx.viewpager2.1.0.0.7.nupkg.sha512",
     "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
     "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.firebase.auth\\119.4.0\\xamarin.firebase.auth.119.4.0.nupkg.sha512",
+    "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.firebase.auth.interop\\119.0.0\\xamarin.firebase.auth.interop.119.0.0.nupkg.sha512",
+    "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.firebase.common\\119.3.1\\xamarin.firebase.common.119.3.1.nupkg.sha512",
+    "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.firebase.components\\116.0.0\\xamarin.firebase.components.116.0.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
     "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.google.android.material\\1.1.0.5\\xamarin.google.android.material.1.1.0.5.nupkg.sha512",
     "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
-    "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.googleplayservices.basement\\117.2.1\\xamarin.googleplayservices.basement.117.2.1.nupkg.sha512"
+    "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.googleplayservices.base\\117.4.0\\xamarin.googleplayservices.base.117.4.0.nupkg.sha512",
+    "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.googleplayservices.basement\\117.4.0\\xamarin.googleplayservices.basement.117.4.0.nupkg.sha512",
+    "C:\\Users\\pmolefe\\.nuget\\packages\\xamarin.googleplayservices.tasks\\117.2.0\\xamarin.googleplayservices.tasks.117.2.0.nupkg.sha512"
   ],
   "logs": []
 }

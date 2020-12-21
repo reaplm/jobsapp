@@ -1,4 +1,5 @@
 ﻿using Google.Cloud.Firestore;
+using Firebase.Auth;
 using System;
 using System.Collections.Generic;
 using JobsApp.Droid.Services;
@@ -10,19 +11,22 @@ using Google.Apis.Auth.OAuth2;
 using Grpc.Auth;
 using Console = System.Console;
 using System.IO;
+using Firebase;
 
 [assembly: Xamarin.Forms.Dependency(typeof(Firebase_Android))]
 namespace JobsApp.Droid.Services
 {
     public class Firebase_Android : IFirebase
     {
+        private FirebaseApp app; 
         private FirestoreDb db;
         private const string filename = "jobsapp-c8100-7dd3e3e004b2.json";
 
         public Firebase_Android()
         {
-            InitializeFirebase();
-           
+            app = FirebaseApp.Instance;
+
+            InitializeFirebase();           
         }
         /// <summary>
         /// Fetch all items from the database
@@ -76,6 +80,27 @@ namespace JobsApp.Droid.Services
             return item;
         }
         /// <summary>
+        /// Sign into firebase using password and email
+        /// </summary>
+        /// <param name="email">User's email</param>
+        /// <param name="password">User's password</param>
+        /// <returns>User's Token Id</returns>
+        public async Task<string> SignInWithEmailAndPassword(string email, string password)
+        {
+            string result = string.Empty;
+            try
+            {
+                var user = await Firebase.Auth.FirebaseAuth.Instance.SignInWithEmailAndPasswordAsync(email, password);
+                result = user.User.GetIdToken(false).Result.ToString();
+            }
+            catch (FirebaseAuthException ex)
+            {
+                Console.WriteLine(ex);
+            }
+            return result;
+        }
+        
+        /// <summary>
         /// Initialize firebase connection
         /// </summary>
         private void InitializeFirebase()
@@ -96,10 +121,11 @@ namespace JobsApp.Droid.Services
 
                 db = new FirestoreDbBuilder
                 {
-                    ProjectId = "jobsapp-c8100",
+                    ProjectId = app.Options.ProjectId,
                     ChannelCredentials = channelCredentials
 
                 }.Build();
+
 
             }
             catch (Exception ex)

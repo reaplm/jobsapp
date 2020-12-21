@@ -7,8 +7,33 @@
              x:Class="JobsApp.Views.LoginPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+        <StackLayout Padding="10,0,10,20" 
+                     VerticalOptions="End" 
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="BlanchedAlmond">
+
+            <Entry  Placeholder="Email"	
+                    Text="{Binding Email}"
+                    VerticalOptions="Start" />
+            <Entry  Placeholder="Password" IsPassword="True"	
+                    Text="{Binding Password}"
+                    VerticalOptions="Start" />
+            <Button VerticalOptions="Start" 
+                    Text="Login" 
+                    TextColor="White" 
+                    Command="{Binding LoginCommand}"
+                    />
+            <StackLayout  Orientation="Horizontal" 
+                          VerticalOptions="End" 
+                          HorizontalOptions="Center">
+                <CheckBox />
+                <Label Text="Remember Me" 
+                       VerticalOptions="Center" 
+                       />
+            </StackLayout>
+            <Label Text="Register"  
+                   TextDecorations="Underline"
+                    HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

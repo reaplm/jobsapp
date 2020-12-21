@@ -1,5 +1,6 @@
 using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Firestore;
+using Google.Apis.Auth;
 using Google.Cloud.Firestore.V1;
 using Grpc.Auth;
 using Grpc.Core;
@@ -16,6 +17,7 @@ namespace XUnitTestProject
     public class TestFirebase
     {
         private FirestoreDb db;
+       // private FirebaseAuth auth;
 
         public TestFirebase()
         {
@@ -76,5 +78,6 @@ namespace XUnitTestProject
             Assert.Equal(5, item.Competencies.Count);
 
         }
+ 
     }
 }
