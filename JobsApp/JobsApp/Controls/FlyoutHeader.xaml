@@ -1,0 +1,16 @@
+﻿<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JobsApp.Controls.FlyoutHeader"
+             HeightRequest="200">
+    <Grid BackgroundColor="WhiteSmoke">
+        <Image Aspect="AspectFit"
+               Source="female_user_256.png"
+               Opacity="0.8" />
+        <Label Text="UserName"
+               TextColor="Indigo"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="End" 
+              />
+    </Grid>
+</ContentView>

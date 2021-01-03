@@ -723,3 +723,4 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\andro
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\androidx\proguard\f89ad12c-7f65-43c1-b4d1-47f4cea6c690.txt
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\androidx\proguard\fa95ec6f-ca16-4e95-90a1-1a050318f82f.txt
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\androidx\proguard\fea7dcce-0f19-4c40-83bd-ba113f78d831.txt
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\female_user_256.png

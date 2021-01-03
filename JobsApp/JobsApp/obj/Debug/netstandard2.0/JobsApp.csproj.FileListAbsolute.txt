@@ -19,3 +19,4 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\J
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\ref\JobsApp.dll
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.pdb
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.csprojAssemblyReference.cache
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Controls\FlyoutHeader.xaml.g.cs

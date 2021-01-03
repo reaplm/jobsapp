@@ -16,29 +16,6 @@ namespace JobsApp
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
             Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
-
-            //Menu Items
-            if (AppManager.IsLoggedIn())
-                FlyoutMenuItem.Text = "Logout";
-            else
-                FlyoutMenuItem.Text = "LogIn";
         }
-
-        private async void OnMenuItemClicked(object sender, EventArgs e)
-        {
-            if (AppManager.IsLoggedIn())
-            {
-                //Logout
-                AppManager.SignOut();
-            }
-            else
-            {
-                //Login
-                await Shell.Current.Navigation.PushModalAsync(new LoginPage());
-            }   
-
-            
-        }
-       
     }
 }

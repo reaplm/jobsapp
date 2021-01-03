@@ -2,6 +2,8 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:JobsApp.Views"
+       xmlns:vm="clr-namespace:JobsApp.ViewModels"
+       xmlns:controls="clr-namespace:JobsApp.Controls"
        Title="JobsApp"
        x:Class="JobsApp.AppShell">
 
@@ -43,6 +45,10 @@
         FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
+    <Shell.FlyoutHeader>
+        <controls:FlyoutHeader />
+    </Shell.FlyoutHeader>
+    
     <FlyoutItem Title="Home" Icon="home_icon.png">
         <ShellContent ContentTemplate="{DataTemplate local:HomePage}" Icon="home_icon.png"/>
         <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" Icon="suitcase_icon.png"/>
@@ -56,10 +62,7 @@
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
-    <MenuItem x:Name ="FlyoutMenuItem" Text="" 
-              StyleClass="MenuItemLayoutStyle" 
-              Clicked="OnMenuItemClicked">
-    </MenuItem>
+
 
     
     <!--
