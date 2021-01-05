@@ -46,7 +46,6 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\m
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\xamarin_logo.png
-C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\icon_about.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\icon_feed.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-hdpi\suitcase_icon.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-mdpi\suitcase_icon.png
@@ -54,7 +53,6 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\m
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-xxhdpi\suitcase_icon.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\suitcase_icon.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\suitcase_icon.png
-C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\home_icon.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\heart_filled.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\heart_outline.png
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\outline_location.png
@@ -723,4 +721,9 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\andro
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\androidx\proguard\f89ad12c-7f65-43c1-b4d1-47f4cea6c690.txt
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\androidx\proguard\fa95ec6f-ca16-4e95-90a1-1a050318f82f.txt
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\androidx\proguard\fea7dcce-0f19-4c40-83bd-ba113f78d831.txt
-C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\female_user_256.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\settings_32.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\marker_24.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\capture2.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\heart_32.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\info_32.png
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp.Android\obj\Debug\90\res\drawable\home_32.png

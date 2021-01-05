@@ -3,14 +3,15 @@
              x:Class="JobsApp.Controls.FlyoutHeader"
              HeightRequest="200">
     <Grid BackgroundColor="WhiteSmoke">
-        <Image Aspect="AspectFit"
-               Source="female_user_256.png"
+        <Image Aspect="AspectFill"
+               Source="Capture2.png"
                Opacity="0.8" />
-        <Label Text="UserName"
+        <Label Text="Jobs App"
                TextColor="Indigo"
                FontAttributes="Bold"
-               HorizontalTextAlignment="Center"
+               HorizontalTextAlignment="End"
                VerticalTextAlignment="End" 
+               Padding="5"
               />
     </Grid>
 </ContentView>

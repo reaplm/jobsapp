@@ -57,7 +57,7 @@
                                     <Label Text="{Binding Title}" FontAttributes="Bold"/>
                                     <Label Text="{Binding Company}"  />
                                     <StackLayout Orientation="Horizontal">
-                                        <Image Source="outline_location.png" 
+                                        <Image Source="marker_24.png" 
                                            />
                                         <Label Text="{Binding Location}" />
                                     </StackLayout>
