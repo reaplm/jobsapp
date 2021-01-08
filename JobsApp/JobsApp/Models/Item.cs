@@ -7,7 +7,7 @@ using Google.Cloud.Firestore;
 namespace JobsApp.Models
 {
     [FirestoreData]
-    public class Item : INotifyPropertyChanged
+    public class Item : INotifyPropertyChanged, IEquatable<Item>
     {
         [FirestoreDocumentId]
         public string Id { set; get; }
@@ -97,6 +97,11 @@ namespace JobsApp.Models
                 return;
 
             changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public bool Equals(Item other)
+        {
+            return this.Id == other.Id;
         }
         #endregion
     }

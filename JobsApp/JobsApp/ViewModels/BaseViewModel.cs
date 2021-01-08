@@ -1,9 +1,13 @@
 ﻿using JobsApp.Models;
 using JobsApp.Services;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace JobsApp.ViewModels

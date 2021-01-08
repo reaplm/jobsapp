@@ -96,6 +96,7 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AppManager_Andorid.cs" />
+    <Compile Include="Services\AppPreferences_Android.cs" />
     <Compile Include="Services\Firebase_Android.cs" />
   </ItemGroup>
   <ItemGroup>

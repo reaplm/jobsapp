@@ -2,10 +2,13 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\bin\Debug\netstandard2.0\J
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\bin\Debug\netstandard2.0\JobsApp.dll
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\bin\Debug\netstandard2.0\ref\JobsApp.dll
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\bin\Debug\netstandard2.0\JobsApp.pdb
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.csprojAssemblyReference.cache
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Controls\FlyoutHeader.xaml.g.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Themes\MainTheme.xaml.g.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\FavouritesPage.xaml.g.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
@@ -18,5 +21,3 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\X
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.dll
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\ref\JobsApp.dll
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.pdb
-C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.csprojAssemblyReference.cache
-C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Controls\FlyoutHeader.xaml.g.cs

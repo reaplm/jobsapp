@@ -2,7 +2,6 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:JobsApp.Views"
-       xmlns:vm="clr-namespace:JobsApp.ViewModels"
        xmlns:controls="clr-namespace:JobsApp.Controls"
        Title="JobsApp"
        x:Class="JobsApp.AppShell">
@@ -54,7 +53,7 @@
         <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" Icon="suitcase_icon.png"/>
     </FlyoutItem>
     <FlyoutItem Title="Favourites" Icon="heart_32.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
+        <ShellContent Route="FavouritesPage" ContentTemplate="{DataTemplate local:FavouritesPage}" />
     </FlyoutItem>
     <FlyoutItem Title="About" Icon="info_32.png">
         <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
