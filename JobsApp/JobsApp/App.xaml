@@ -40,7 +40,7 @@
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource  BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
-            
+
             <Style Class="FlyoutItemLabelStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource FlyoutItemTextColor}"></Setter>
             </Style>

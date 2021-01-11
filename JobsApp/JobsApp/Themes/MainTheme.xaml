@@ -21,9 +21,8 @@
 
     <!-- Flyout-->
     <Color x:Key="FlyoutBackgroundColor" >PrimaryColor</Color>
-    <Color x:Key="FlyoutItemSelectedBgColor" >PrimaryColor</Color>
-    <Color x:Key="FlyoutItemTextColor" >PrimaryColor</Color>
-    <Color x:Key="FlyoutItemSelectedTextColor" >White</Color>
+    <Color x:Key="FlyoutItemSelectedBgColor" >#e6ceff</Color>
+    <Color x:Key="FlyoutItemTextColor" >#38006b</Color>
 
 
 </ResourceDictionary>

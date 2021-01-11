@@ -49,7 +49,7 @@
     </Shell.FlyoutHeader>
     
     <FlyoutItem Title="Home" Icon="home_32.png">
-        <ShellContent ContentTemplate="{DataTemplate local:HomePage}" Icon="home_32.png"/>
+        <ShellContent ContentTemplate="{DataTemplate local:HomePage}" Icon="home_icon.png"/>
         <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" Icon="suitcase_icon.png"/>
     </FlyoutItem>
     <FlyoutItem Title="Favourites" Icon="heart_32.png">

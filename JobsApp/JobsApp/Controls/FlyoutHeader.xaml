@@ -3,8 +3,8 @@
              x:Class="JobsApp.Controls.FlyoutHeader"
              HeightRequest="200">
     <Grid BackgroundColor="WhiteSmoke">
-        <Image Aspect="AspectFill"
-               Source="Capture2.png"
+        <Image Aspect="AspectFit"
+               Source="logo.png"
                Opacity="0.8" />
         <Label Text="Jobs App"
                TextColor="Indigo"
