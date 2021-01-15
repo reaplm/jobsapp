@@ -74,6 +74,10 @@ namespace JobsApp.Views
             titleText.SetBinding(Label.TextProperty, new Binding("Item.Title"));
             favButton.SetBinding(Image.SourceProperty, new Binding("Item.LikeSource"));
 
+            var tapGestureRecognizer = new TapGestureRecognizer();
+            tapGestureRecognizer.SetBinding(TapGestureRecognizer.CommandProperty, "LikeTapped");
+            favButton.GestureRecognizers.Add(tapGestureRecognizer);
+
             //Header Layout
             var headerLayout = new Grid
             {

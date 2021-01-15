@@ -2,8 +2,10 @@
 using JobsApp.Views;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace JobsApp.ViewModels
@@ -11,8 +13,18 @@ namespace JobsApp.ViewModels
     [QueryProperty(nameof(JsonItem), nameof(JsonItem))]
     public class ItemDetailViewModel : BaseViewModel
     {
-         
-        
+        public Command LikeTapped { get; }
+
+        private const string favouritesKey = "Likes";
+        public List<Item> Favourites { get; set; }
+
+        public ItemDetailViewModel()
+        {
+            Favourites = new List<Item>();
+            LoadFavourites();
+            LikeTapped = new Command(OnLikeTapped);
+        }
+
         private string jsonItem;
         public string JsonItem
         {
@@ -90,5 +102,46 @@ namespace JobsApp.ViewModels
                 Debug.WriteLine("Failed to Load Item: " + ex);
             }
         }
+        #region Favourites
+        /// <summary>
+        /// Like button tapped event handler
+        /// </summary>
+        /// <param name="item"></param>
+        private void OnLikeTapped()
+        {
+            Item.Liked = !Item.Liked;
+
+            //Save item to preferences
+            if (Item.Liked)
+            {
+                if (!Favourites.Exists(x => x.Id == Item.Id))
+                    Favourites.Add(Item);
+            }
+
+            else
+                Favourites.Remove(Item);
+
+            SaveFavourites();
+
+        }
+        /// <summary>
+        /// Load favourite items from preferences
+        /// </summary>
+        private void LoadFavourites()
+        {
+            string jsonObject = Preferences.Get(favouritesKey, null);
+
+            if (jsonObject != null)
+                Favourites = JsonConvert.DeserializeObject<List<Item>>(jsonObject);
+
+        }
+        /// <summary>
+        /// Save favourite items to preferences
+        /// </summary>
+        private void SaveFavourites()
+        {
+            Preferences.Set(favouritesKey, JsonConvert.SerializeObject(Favourites));
+        }
+        #endregion
     }
 }
