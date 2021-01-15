@@ -1,4 +1,6 @@
 ﻿using JobsApp.Models;
+using JobsApp.Views;
+using Newtonsoft.Json;
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -6,51 +8,86 @@ using Xamarin.Forms;
 
 namespace JobsApp.ViewModels
 {
-    [QueryProperty(nameof(ItemId), nameof(ItemId))]
+    [QueryProperty(nameof(JsonItem), nameof(JsonItem))]
     public class ItemDetailViewModel : BaseViewModel
     {
-        private string itemId;
-        private string text;
-        private string description;
-        public string Id { get; set; }
-
-        public string Text
-        {
-            get => text;
-            set => SetProperty(ref text, value);
-        }
-
-        public string Description
-        {
-            get => description;
-            set => SetProperty(ref description, value);
-        }
-
-        public string ItemId
+         
+        
+        private string jsonItem;
+        public string JsonItem
         {
             get
             {
-                return itemId;
+                return jsonItem;
             }
             set
             {
-                itemId = value;
-                LoadItemId(value);
+                jsonItem = Uri.UnescapeDataString(value);
+                LoadItem(jsonItem);
+                OnPropertyChanged("Item");
+                
             }
         }
+        private Item item;
+        public Item Item
+        {
+            get
+            {
+                return item;
+            }
+            set
+            {
+                SetProperty(ref item, value);
+                OnPropertyChanged("QualificationsHeading");
+                OnPropertyChanged("CompetenciesHeading");
+                OnPropertyChanged("DescriptionHeading");
 
-        public async void LoadItemId(string itemId)
+            }
+        }
+        public string QualificationsHeading
+        {
+            get
+            {
+                if(item != null)
+                {
+                    return Item.Qualifications == null ? "" : "Qualifications";
+                }
+                else { return ""; }
+            }
+        }
+        public string CompetenciesHeading
+        {
+            get
+            {
+                if (item != null)
+                {
+                    return Item.Competencies == null ? "" : "Competencies";
+                }
+                else { return ""; }
+            }
+        }
+        public string DescriptionHeading
+        {
+            get
+            {
+                if (item != null)
+                {
+
+                    return Item.Description == null ? "" : "Job Description";
+                }
+                else { return ""; }
+            }
+        }
+        public async void LoadItem(string item)
         {
             try
             {
-                var item = await DataStore.FindAsync(itemId);
-                Id = item.Id;
-                Text = item.Title;
-                Description = item.Description;
+                Item = await Task.Run(() => JsonConvert.DeserializeObject<Item>(item));
+                Title = Item.Title;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Debug.WriteLine("Failed to Load Item");
+                Debug.WriteLine("Failed to Load Item: " + ex);
             }
         }
     }

@@ -115,8 +115,10 @@ namespace JobsApp.ViewModels
             if (item == null)
                 return;
 
+            var jsonItem = Uri.EscapeDataString(JsonConvert.SerializeObject(item));
+
             // This will push the ItemDetailPage onto the navigation stack
-            await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.ItemId)}={item.Id}");
+            await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.JsonItem)}={jsonItem}");
         }
 
         #region Favourites

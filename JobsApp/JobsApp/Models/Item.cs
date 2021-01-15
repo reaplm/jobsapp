@@ -74,7 +74,51 @@ namespace JobsApp.Models
                 return Title.Substring(0, 1);
             } 
         }
-
+        public string QualificationsToString
+        {
+            get
+            {
+                var qstring = "";
+                if (Qualifications != null)
+                {
+                    foreach (var q in Qualifications)
+                    {
+                        qstring += "• " + q + "\n";
+                    }
+                }
+                return qstring;
+            }
+        }
+        public string CompetenciesToString
+        {
+            get
+            {
+                var cstring = "";
+                if (Competencies != null)
+                {
+                    foreach (var c in Competencies)
+                    {
+                        cstring += "• " + c + "\n";
+                    }
+                }
+                return cstring;
+            }
+        }
+        public string ContactsToString
+        {
+            get
+            {
+                var cstring = "";
+                if (Contacts != null)
+                {
+                    foreach (var c in Contacts)
+                    {
+                        cstring += c + "\n";
+                    }
+                }
+                return cstring;
+            }
+        }
         protected bool SetProperty<T>(ref T backingStore, T value,
             [CallerMemberName] string propertyName = "",
             Action onChanged = null)
