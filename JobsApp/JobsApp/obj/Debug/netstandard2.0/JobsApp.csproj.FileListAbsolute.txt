@@ -13,6 +13,7 @@ C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\V
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\JobsPage.xaml.g.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\Views\SettingsPage.xaml.g.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.AssemblyInfoInputs.cache
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.AssemblyInfo.cs
 C:\Users\pmolefe\Source\repos\JobsApp\JobsApp\JobsApp\obj\Debug\netstandard2.0\JobsApp.csproj.CoreCompileInputs.cache

@@ -17,6 +17,8 @@ namespace JobsApp
             Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
             Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
             Routing.RegisterRoute(nameof(FavouritesPage), typeof(FavouritesPage));
+            Routing.RegisterRoute(nameof(SettingsPage), typeof(SettingsPage));
+
         }
     }
 }
